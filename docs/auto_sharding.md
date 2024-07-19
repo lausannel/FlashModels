@@ -7,7 +7,7 @@
 
 AutoSharding refers to the capability of automatically distributing the training process of a model across multiple devices or machines. This is particularly useful in scenarios where cluster configurations frequently change or when there is no well-established distribution strategy for the model.
 
-The AutoSharding feature of FlashModels is based on SPMD. It can search for distributed strategies and automatically shard the model. The user only needs to specify the mesh shape of the devices or machines, and the rest of the work will be done by the AutoSharding feature.
+The AutoSharding feature of FlashModels is based on SPMD. It can search for distributed strategies and automatically shard the model. The user only needs to specify the **mesh shape** of the devices or machines, and the rest of the work will be done by the AutoSharding feature.
 
 ## Example
 
