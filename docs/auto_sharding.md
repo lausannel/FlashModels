@@ -50,7 +50,7 @@ We compared the training speed of the Llama-1B model using 4 NVIDIA A100-SXM4-80
 - Precision: BF16
 - Dataset: Alpaca
 
-Four different configurations were evaluated: tensor parallelism (TP), data parallelism (DP), fully sharded data parallelism (FSDP), and AutoSharding. The results are shown in the following figure:
+Four different configurations were evaluated: tensor parallelism (TP) + sequence parallelism (SP), data parallelism (DP), fully sharded data parallelism (FSDP), and AutoSharding. The results are shown in the following figure:
 
 ![AutoSharding](./resources/alpaca-result.png)
 
